@@ -1,0 +1,39 @@
+Decoradores
+
+Para começar decoradores primeiro vamos partir dos conceitos de log
+
+Para debugar o código muitas pessoas acabam por utilizar o print
+
+O log é utilizado para verificar por 24h as aplicações, verificando se da algum erro ou tem alguma informação importante
+
+Loguru
+
+Existem níveis de log conforme for desenvolvendo
+
+DEBUG
+    Descrição: O nível DEBUG é usado para informações detalhadas, tipicamente de interesse apenas quando se está diagnosticando problemas.
+    Uso: Desenvolvedores usam este nível para obter informações detalhadas sobre o fluxo da aplicação, variáveis de estado, e para entender como o código está operando durante o desenvolvimento e a depuração.
+INFO
+    Descrição: O nível INFO é usado para confirmar que as coisas estão funcionando conforme o esperado.
+    Uso: Este nível é geralmente o padrão em produção para registrar eventos normais do sistema, como processos de inicialização, operações concluídas com sucesso, ou outras transações de rotina.
+WARNING
+    Descrição: O nível WARNING indica que algo inesperado aconteceu, ou indica algum problema no futuro próximo (e.g., 'disco quase cheio'). O software está funcionando como esperado.
+    Uso: Utiliza-se este nível para alertar sobre situações que podem necessitar de atenção mas não impedem o funcionamento do sistema. Por exemplo, usar uma função obsoleta ou problemas de performance que não requerem uma ação imediata.
+ERROR
+    Descrição: O nível ERROR indica que devido a um problema mais grave, a execução de alguma função ou operação falhou.
+    Uso: Este nível é usado para registrar eventos de erro que afetam a operação de uma parte do sistema ou funcionalidade, mas não necessariamente o sistema como um todo. Erros que são capturados e gerenciados ainda podem ser logados neste nível.
+CRITICAL
+    Descrição: O nível CRITICAL indica um erro grave que impede a continuação da execução do programa.
+    Uso: É usado para erros que necessitam de atenção imediata, como um falha crítica no sistema que pode resultar em parada total do serviço ou aplicação. Este nível deve ser reservado para os problemas mais sérios.
+
+Estudar a documentação do Loguru
+
+Sentry.io
+Cobra por mensagem de Log
+Traz a porcentagem dos erros que deseja capturar
+    Não se deve capturar 100% por poder estourar o limite
+    Você paga por seus erros kkkkk
+    Só faz sentido se for controlado, se tiver uma noção do quanto pode gerar erro.
+    Primeiro trabalhar com amostra reduzida do total
+
+
