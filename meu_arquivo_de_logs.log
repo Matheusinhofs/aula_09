@@ -1,7 +1,27 @@
-2025-02-14T11:14:40.934721-0300 INFO Você obteve o total de 5 com a função soma exemplo_01.py
-2025-02-14T11:14:40.934721-0300 INFO Você obteve o total de 8 com a função soma exemplo_01.py
-2025-02-14T11:14:40.937074-0300 CRITICAL Você deve digitar valores corretos exemplo_01.py
-2025-02-14T11:14:40.937074-0300 INFO Traz alguma informação importante do processo exemplo_01.py
-2025-02-14T11:14:40.937074-0300 WARNING Um aviso que algo vai deixar de funcionar no futuro exemplo_01.py
-2025-02-14T11:14:40.939586-0300 ERROR Ocorreu uma falha exemplo_01.py
-2025-02-14T11:14:40.940600-0300 CRITICAL Aconteceu um erro que quebra a aplicação exemplo_01.py
+2025-02-14T14:42:51.123279-0300 INFO Chamando função 'extrair_dados_e_consolidar' com args ('dados',) e kwargs {} utils_log.py
+2025-02-14T14:42:51.215677-0300 INFO Função 'extrair_dados_e_consolidar' retornou             Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17 utils_log.py
+2025-02-14T14:42:51.263310-0300 INFO Função 'calcular_kpi_de_total_de_vendas' executada em 0.0000 segundos timer_decorator.py
+2025-02-14T14:42:51.616043-0300 INFO Função 'carregar_dados' executada em 0.3481 segundos timer_decorator.py
+2025-02-14T14:42:51.616043-0300 INFO Função 'pipeline_calcular_kpi_de_vendas_consolidado' executada em 0.4928 segundos timer_decorator.py
+2025-02-14T14:45:38.458527-0300 INFO Chamando função 'extrair_dados_e_consolidar' com args ('dados',) e kwargs {} utils_log.py
+2025-02-14T14:45:38.518556-0300 INFO Função 'extrair_dados_e_consolidar' retornou             Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17 utils_log.py
+2025-02-14T14:45:38.819914-0300 INFO Função 'carregar_dados' executada em 0.2771 segundos timer_decorator.py
+2025-02-14T14:45:38.819914-0300 INFO Função 'pipeline_calcular_kpi_de_vendas_consolidado' executada em 0.3614 segundos timer_decorator.py

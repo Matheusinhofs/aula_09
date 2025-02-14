@@ -1,17 +1,18 @@
-[project]
+[tool.poetry]
 name = "aula-09"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Matheusinhofs",email = "matheusfs117@gmail.com"}
-]
+authors = ["Matheusinhofs <matheusfs117@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.9,<4.0"
-dependencies = [
-    "loguru (>=0.7.3,<0.8.0)"
-]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+loguru = "^0.7.3"
+fastparquet = "^2024.11.0"
+tenacity = "^9.0.0"
 
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

@@ -1,8 +1,5 @@
 from loguru import logger
 from sys import stderr
-import os, pwd
-
-username = pwd.getpwuid(os.getuid()).pw_name
 
 # Configuração do logger para stderr
 logger.add(
@@ -38,3 +35,9 @@ logger.warning("Um aviso que algo vai deixar de funcionar no futuro")
 logger.error("Ocorreu uma falha")
 logger.critical("Aconteceu um erro que quebra a aplicação")
 
+
+from utils_log import log_decorator
+
+@log_decorator
+def soma(x,y):
+    return x + y

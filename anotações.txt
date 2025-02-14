@@ -36,4 +36,11 @@ Traz a porcentagem dos erros que deseja capturar
     Só faz sentido se for controlado, se tiver uma noção do quanto pode gerar erro.
     Primeiro trabalhar com amostra reduzida do total
 
+Decorador é colocar uma função dentro de outra função
+Cria uma função única de Log mas decora ela 
+
+A função wrapper ela embrulha tudo que esta na função e em cima disso o logger
+    Pode ficar embrulhando em cascata 
+    Ele coloca mais camadas no código
+    Função que recebe uma função
 
